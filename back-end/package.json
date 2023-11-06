@@ -5,13 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "migrate": "knex migrate:latest",
-    "rollback": "knex migrate:rollback",
-    "seed": "knex seed:run",
-    "dev": "nodemon --exec ts-node src/app.ts",
-    "knex:migrate:make": " npx knex --knexfile ./src/knexfile.ts migrate:make",
-    "knex:migrate:latest": "npx knex --knexfile ./src/knexfile.ts migrate:latest",
-    "knex:migrate:rollback": "knex --knexfile src/db/knex/knexfile.ts migrate:rollback"
+    "dev": "nodemon --exec ts-node src/app.ts"
   },
   "keywords": [],
   "author": "",
