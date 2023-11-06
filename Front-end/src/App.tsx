@@ -52,7 +52,7 @@ function App() {
       setListTask(newList);
     }
   };
-  
+
   const deleteTask = async (id: number) => {
     try {
       await api.delete(`/tasks/${id}`);
